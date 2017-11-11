@@ -14,16 +14,113 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cloud4s/src/main/java/com/cse/cloud4s/controller/MainController.java" afterPath="$PROJECT_DIR$/../cloud4s/src/main/java/com/cse/cloud4s/controller/MainController.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cloud4s/src/main/java/com/cse/cloud4s/model/FileKey.java" afterPath="$PROJECT_DIR$/../cloud4s/src/main/java/com/cse/cloud4s/model/FileKey.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cloud4s/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/../cloud4s/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvnw" afterPath="$PROJECT_DIR$/mvnw" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mvnw.cmd" afterPath="$PROJECT_DIR$/mvnw.cmd" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/CFM/configuration/SecurityConfiguration.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/CFM/configuration/SecurityConfiguration.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/CFM/controller/BaseController.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/CFM/controller/BaseController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/TmsApplication.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/TmsApplication.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/common/model/Track.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/common/model/Track.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/dao/IVehicleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/dao/IVehicleDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/dao/VehcleDAO.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/dao/VehcleDAO.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/model/Vehicle.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/model/Vehicle.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/services/IVehicleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/services/IVehicleService.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/services/VehicleService.java" afterPath="$PROJECT_DIR$/src/main/java/com/tms/vehicle/services/VehicleService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/css/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/css/demo.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/css/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/css/light-bootstrap-dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/css/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/css/pe-icon-7-stroke.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/fonts/Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/fonts/Pe-icon-7-stroke.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/img/loading-bubbles.svg" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/img/loading-bubbles.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap-checkbox-radio-switch.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap-checkbox-radio-switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap-notify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap-select.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap-select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/chartist.min.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/chartist.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/demo.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/js/light-bootstrap-dashboard.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/js/light-bootstrap-dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_alerts.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_alerts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_cards.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_chartist.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_chartist.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_checkbox-radio-switch.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_checkbox-radio-switch.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_dropdown.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_dropdown.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_footers.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_footers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_inputs.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_misc.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_misc.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_mixins.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_navbars.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_navbars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_responsive.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_sidebar-and-main-panel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_tables.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_typography.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_variables.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_cards.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_chartist.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_icons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_labels.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_labels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_morphing-buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_morphing-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_navbars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_social-buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_social-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_transparency.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/lbd/mixins/_vendor-prefixes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/light-bootstrap-dashboard.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/assets/sass/light-bootstrap-dashboard.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/css/animate.min.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/animate.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/css/bootstrap.min.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/bootstrap.min.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/css/demo.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/demo.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/css/light-bootstrap-dashboard.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/light-bootstrap-dashboard.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/css/pe-icon-7-stroke.css" afterPath="$PROJECT_DIR$/src/main/resources/assets/css/pe-icon-7-stroke.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/fonts/Pe-icon-7-stroke.svg" afterPath="$PROJECT_DIR$/src/main/resources/assets/fonts/Pe-icon-7-stroke.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/img/loading-bubbles.svg" afterPath="$PROJECT_DIR$/src/main/resources/assets/img/loading-bubbles.svg" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap-checkbox-radio-switch.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap-checkbox-radio-switch.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap-notify.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap-notify.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap-select.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap-select.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/chartist.min.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/chartist.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/demo.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/demo.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/jquery-1.10.2.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/jquery-1.10.2.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/js/light-bootstrap-dashboard.js" afterPath="$PROJECT_DIR$/src/main/resources/assets/js/light-bootstrap-dashboard.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_alerts.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_alerts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_cards.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_chartist.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_chartist.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_checkbox-radio-switch.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_checkbox-radio-switch.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_dropdown.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_dropdown.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_footers.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_footers.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_inputs.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_misc.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_misc.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_mixins.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_mixins.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_navbars.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_navbars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_responsive.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_responsive.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_sidebar-and-main-panel.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_sidebar-and-main-panel.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_tables.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_tables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_typography.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_typography.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_variables.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/_variables.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_cards.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_cards.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_chartist.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_chartist.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_icons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_icons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_inputs.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_inputs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_labels.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_labels.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_morphing-buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_morphing-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_navbars.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_navbars.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_social-buttons.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_social-buttons.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_tabs.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_tabs.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_transparency.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_transparency.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_vendor-prefixes.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/lbd/mixins/_vendor-prefixes.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/resources/assets/sass/light-bootstrap-dashboard.scss" afterPath="$PROJECT_DIR$/src/main/resources/assets/sass/light-bootstrap-dashboard.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/manageVehicle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/manageVehicle.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vehicle.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/vehicle.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/app.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/bootstrap.min.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/tms/TmsApplicationTests.java" afterPath="$PROJECT_DIR$/src/test/java/com/tms/TmsApplicationTests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,8 +140,8 @@
       <file leaf-file-name="VehicleService.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tms/vehicle/services/VehicleService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="452">
-              <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+            <state relative-caret-position="306">
+              <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
               <folding>
                 <element signature="e#1095#1096#0" expanded="true" />
                 <element signature="e#1159#1160#0" expanded="true" />
@@ -113,7 +210,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tms/user/model/User.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+              <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -356,24 +453,24 @@
     <property name="ChangesBrowser.SHOW_FLATTEN" value="false" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\resources\assets\js\custom" />
-      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\static\js" />
-      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\WEB-INF\js" />
-      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\WEB-INF\jsp" />
-      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\resources\assets" />
-    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tms" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.tms.CFM.converter" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\WEB-INF\jsp\js" />
       <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\WEB-INF\jsp\css" />
       <recent name="C:\Users\hp\Desktop\developments\tms\src\main\resources" />
       <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\static\css" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tms.CFM.converter" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\Desktop\developments\tms\scripts" />
+      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\resources\assets\js\custom" />
+      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\static\js" />
+      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\WEB-INF\js" />
+      <recent name="C:\Users\hp\Desktop\developments\tms\src\main\webapp\WEB-INF\jsp" />
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.TmsApplication">
@@ -842,12 +939,12 @@
       <workItem from="1509976411438" duration="4576000" />
       <workItem from="1510157797600" duration="678000" />
       <workItem from="1510401288234" duration="3441000" />
-      <workItem from="1510417953597" duration="3402000" />
+      <workItem from="1510417953597" duration="4304000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="142217000" />
+    <option name="totallyTimeSpent" value="143119000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1456,7 +1553,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tms/user/model/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="16" column="28" lean-forward="true" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
+          <caret line="16" column="28" lean-forward="false" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
           <folding />
         </state>
       </provider>
@@ -1489,8 +1586,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/tms/vehicle/services/VehicleService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="452">
-          <caret line="45" column="54" lean-forward="false" selection-start-line="45" selection-start-column="54" selection-end-line="45" selection-end-column="54" />
+        <state relative-caret-position="306">
+          <caret line="28" column="52" lean-forward="true" selection-start-line="28" selection-start-column="52" selection-end-line="28" selection-end-column="52" />
           <folding>
             <element signature="e#1095#1096#0" expanded="true" />
             <element signature="e#1159#1160#0" expanded="true" />
