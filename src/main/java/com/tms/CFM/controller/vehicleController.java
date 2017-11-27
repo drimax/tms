@@ -11,6 +11,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
+import java.util.ArrayList;
 import java.util.List;
 
 
@@ -35,14 +36,41 @@ public class vehicleController {
 
     }
 
-    @RequestMapping(value = "/getAllVehicles", method = RequestMethod.GET)
+    @RequestMapping(value = "/getAllVehicles", method = RequestMethod.POST)
     @ResponseBody
-    public Response getAllVehicle() {
+    public Response getAllVehicle(String vehicleRegNo) {
         Response<VehicleDTO> response = new Response();
-        List<VehicleDTO> vehicles = vehicleService.getAllVehicles();
+        List<VehicleDTO> vehicles = new ArrayList<>();
+        if(vehicleRegNo !=  null && vehicleRegNo != ""){
+            VehicleDTO vehicle = vehicleService.getVehicleByNum(vehicleRegNo);
+            if(vehicle != null){
+                vehicles.add(vehicle);
+            }
+        } else {
+            vehicles = vehicleService.getAllVehicles();
+        }
+
         response.setTableData(vehicles);
         response.setSuccess(true);
         return response;
 
+    }
+
+    @RequestMapping(value = "/updateVehicle", method = RequestMethod.POST)
+    @ResponseBody
+    public Response updateVehicle(final VehicleDTO vehicleDTO) {
+        Response response = new Response();
+        boolean saveSuccess = vehicleService.updateVehicle(vehicleDTO);
+        response.setSuccess(saveSuccess);
+        return response;
+    }
+
+    @RequestMapping(value = "/deleteVehicle", method = RequestMethod.POST)
+    @ResponseBody
+    public Response deleteVehicle(final VehicleDTO vehicleDTO) {
+        Response response = new Response();
+        boolean saveSuccess = vehicleService.deleteVehicle(vehicleDTO);
+        response.setSuccess(saveSuccess);
+        return response;
     }
 }

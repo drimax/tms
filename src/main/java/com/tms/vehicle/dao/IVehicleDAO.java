@@ -16,4 +16,10 @@ public interface IVehicleDAO {
     List<String> getAllVehicleTypes();
 
     boolean saveVehicle(Vehicle vehicle);
+
+    Vehicle getVehivleById(Integer vehicleId);
+
+    boolean updateVehicle(Vehicle vehicle);
+
+    boolean deleteVehicle(Vehicle vehicle);
 }

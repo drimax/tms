@@ -52,4 +52,32 @@ public class VehcleDAO implements IVehicleDAO {
         }
         return false;
     }
+
+    @Override
+    public Vehicle getVehivleById(Integer vehicleId) {
+        Vehicle vehicle = entityManager.find(Vehicle.class, vehicleId);
+        return vehicle;
+    }
+
+    @Override
+    public boolean updateVehicle(Vehicle vehicle) {
+        Vehicle persistedVehicle = null;
+        entityManager.merge(vehicle);
+        persistedVehicle = getVehivleByNumber(vehicle.getVehcleRegNo());
+        if(persistedVehicle != null){
+            return  true;
+        }
+        return false;
+    }
+
+    @Override
+    public boolean deleteVehicle(Vehicle vehicle) {
+        try{
+            entityManager.remove(vehicle);
+        }catch (Exception e){
+            return false;
+        }
+
+        return true;
+    }
 }

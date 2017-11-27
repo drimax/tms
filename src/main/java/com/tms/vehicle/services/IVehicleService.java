@@ -12,7 +12,11 @@ public interface IVehicleService {
 
     List<VehicleDTO> getAllVehicles();
 
-    Vehicle getVehicleByNum(String vehicleNum);
+    VehicleDTO getVehicleByNum(String vehicleNum);
 
     boolean saveVehicle(VehicleDTO vehicleDTO);
+
+    boolean updateVehicle(VehicleDTO vehicleDTO);
+
+    boolean deleteVehicle(VehicleDTO vehicleDTO);
 }

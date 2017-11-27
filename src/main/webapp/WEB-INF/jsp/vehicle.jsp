@@ -217,8 +217,10 @@
 							<div class="col-md-8">
 							
 							<div class="pull-center">
-												<input type="text" class="form-control" placeholder="TYPE YOUR REG NO HERE" name="search"><br>
-												<button type="submit" class="btn btn-info btn-fill pull-center">Search</button>&nbsp &nbsp &nbsp
+                                <label>REG NO</label>
+
+												<input type="text" id="serchVehicleRegNo" class="form-control" placeholder="TYPE YOUR REG NO HERE" name="search"><br>
+												<button type="submit" onclick="searchVehicle()" class="btn btn-info btn-fill pull-center">Search</button>&nbsp &nbsp &nbsp
 												
 												<br>
 												</div><br><br>
@@ -229,10 +231,10 @@
 								<br>
 								<br>
 								<div class="pull-center">
-												
-												<button type="submit" class="btn btn-info btn-fill pull-center">Update</button>&nbsp &nbsp &nbsp
-												<button type="submit" class="btn btn-info btn-fill pull-center">Delete</button>&nbsp &nbsp &nbsp
-												<button type="submit" class="btn btn-info btn-fill pull-center">Clear</button>
+                                                <button type="submit" id="vehicleAddButton" onclick="vehicleAdd()" class="btn btn-info btn-fill pull-center">Add</button>&nbsp &nbsp &nbsp
+												<button type="submit" id="vehicleUpdateButton" onclick="vehicleUpdate()" class="btn btn-info btn-fill pull-center">Edit</button>&nbsp &nbsp &nbsp
+												<button type="submit" id="vehicleDeleteButton" onclick="vehicleDelete()" class="btn btn-info btn-fill pull-center">Delete</button>&nbsp &nbsp &nbsp
+												<button type="submit" id="vehicleClearButton" onclick="vehicleClear()" class="btn btn-info btn-fill pull-center">Clear</button>
 												<br>
 												</div>
 								
@@ -311,8 +313,8 @@
 												<br>
 												<label>Milage</label>
                                                 <input id="vehicleMilage" type="text" class="form-control" placeholder="123KM" value="">
+                                                    <label>Status</label>
                                                     <div class="dropdown">
-                                                        <labelStatus</label>&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp
                                                         <select id="status" class="btn btn-default dropdown-toggle" >
                                                             <option value="ACT">Active</option>
                                                             <option value="INA">Inactive</option>
@@ -321,6 +323,7 @@
                                                     </div>
 												<br>
 													<button type="submit" id="vehicleSave" class="btn btn-info btn-fill pull-left">Save</button>
+                                                    <button type="submit" id="vehicleUpdate" class="btn btn-info btn-fill pull-left">Update</button>
 													<br>
 													<br>
 													<br>

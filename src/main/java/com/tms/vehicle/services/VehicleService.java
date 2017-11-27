@@ -36,8 +36,14 @@ public class VehicleService implements IVehicleService {
     }
 
     @Override
-    public Vehicle getVehicleByNum(String vehicleNum) {
-        return vehicleDAO.getVehivleByNumber(vehicleNum);
+    public VehicleDTO getVehicleByNum(String vehicleNum) {
+        VehicleAdaptor adaptor = new VehicleAdaptor();
+        Vehicle vehicle = vehicleDAO.getVehivleByNumber(vehicleNum);
+        if(vehicle != null){
+            return adaptor.toDTO(vehicle);
+        } else {
+            return null;
+        }
     }
 
     @Override
@@ -48,6 +54,35 @@ public class VehicleService implements IVehicleService {
         vehicle.setModifiedTime(new Date());
         vehicle.setVersion(0);
         return vehicleDAO.saveVehicle(vehicle);
+    }
+
+    @Override
+    public boolean updateVehicle(VehicleDTO vehicleDTO) {
+        VehicleAdaptor adaptor = new VehicleAdaptor();
+        Vehicle vehicle = adaptor.toModel(vehicleDTO);
+        Vehicle existingVehicle = vehicleDAO.getVehivleById(vehicle.getVehicleId());
+        if(existingVehicle != null){
+            existingVehicle.setModifiedTime(new Date());
+            existingVehicle.setVersion(existingVehicle.getVersion()+1);
+            existingVehicle.setVehicleUser(vehicle.getVehicleUser());
+            existingVehicle.setVehicleMilage(vehicle.getVehicleMilage());
+            existingVehicle.setStatus(vehicle.getStatus());
+            return vehicleDAO.updateVehicle(existingVehicle);
+        } else {
+            return false;
+        }
+    }
+
+    @Override
+    public boolean deleteVehicle(VehicleDTO vehicleDTO) {
+        VehicleAdaptor adaptor = new VehicleAdaptor();
+        Vehicle vehicle = adaptor.toModel(vehicleDTO);
+        Vehicle existingVehicle = vehicleDAO.getVehivleById(vehicle.getVehicleId());
+        if(existingVehicle != null){
+            return vehicleDAO.deleteVehicle(existingVehicle);
+        } else {
+            return false;
+        }
     }
 
 
