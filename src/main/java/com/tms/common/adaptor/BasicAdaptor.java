@@ -9,3 +9,5 @@ public abstract class BasicAdaptor <M, D> {
 
     public abstract D toDTO(M Model);
 }
+
+

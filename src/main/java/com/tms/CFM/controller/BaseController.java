@@ -2,6 +2,8 @@ package com.tms.CFM.controller;
 
 import javax.validation.Valid;
 
+import com.tms.employee.services.IEmployeeService;
+import com.tms.route.services.IRouteService;
 import com.tms.vehicle.model.Vehicle;
 import com.tms.vehicle.services.IVehicleService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -22,6 +24,12 @@ public class BaseController {
 
     @Autowired
     private IVehicleService vehicleService;
+
+    @Autowired
+    private IEmployeeService employeeService;
+
+    @Autowired
+    private IRouteService routeService;
 
     @RequestMapping(value = { "/", "/welcome**" }, method = RequestMethod.GET)
     public ModelAndView welcomePage() {
@@ -86,4 +94,44 @@ public class BaseController {
 
     }
 
+
+    @RequestMapping(value = "/manageEmployee", method = RequestMethod.GET)
+    public ModelAndView manageEmployeePage() {
+
+        ModelAndView model = new ModelAndView();
+        model.setViewName("employee");
+
+        return model;
+
+    }
+
+    @RequestMapping(value = "/manageRoute", method = RequestMethod.GET)
+    public ModelAndView manageRoutePage() {
+
+        ModelAndView model = new ModelAndView();
+        model.setViewName("route");
+
+        return model;
+
+    }
+
+    @RequestMapping(value = "/manageProduct", method = RequestMethod.GET)
+    public ModelAndView manageProductPage() {
+
+        ModelAndView model = new ModelAndView();
+        model.setViewName("product");
+
+        return model;
+
+    }
+
+    @RequestMapping(value = "/manageFleet", method = RequestMethod.GET)
+    public ModelAndView manageFleetPage() {
+
+        ModelAndView model = new ModelAndView();
+        model.setViewName("fleet");
+
+        return model;
+
+    }
 }

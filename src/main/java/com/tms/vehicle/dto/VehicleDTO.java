@@ -62,9 +62,7 @@ public class VehicleDTO implements Serializable{
         return vehicleMilage;
     }
 
-    public String getStatus() {
-        return status;
-    }
+    public String getStatus() { return status; }
 
     public void setVehcleRegNo(String vehcleRegNo) {
         this.vehcleRegNo = vehcleRegNo;

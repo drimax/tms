@@ -65,31 +65,31 @@
                     </a>
                 </li>
                 <li class="">
-                    <a href="../../../../../../../ravi/light-bootstrap-dashboard-master-edit-3/employee.html">
+                    <a href="/manageEmployee.html">
                         <i class="pe-7s-user"></i>
                         <p>Employee</p>
                     </a>
                 </li>
                 <li><li class="active">
-                    <a href="vehicle.jsp">
+                    <a href="manageVehicle.html">
                         <i class="pe-7s-note2"></i>
                         <p>Vehicle</p>
                     </a>
                 </li></li>
                 <li>
-                    <a href="../../../../../../../ravi/light-bootstrap-dashboard-master-edit-3/root.html">
+                    <a href="manageRoute.html">
                         <i class="pe-7s-news-paper"></i>
-                        <p>Root</p>
+                        <p>Route</p>
                     </a>
                 </li>
                 <li>
-                    <a href="icons.html">
+                    <a href="manageProduct.html">
                         <i class="pe-7s-science"></i>
                         <p>Product</p>
                     </a>
                 </li>
                 <li>
-                    <a href="../../../../../../../ravi/light-bootstrap-dashboard-master-edit-3/maps.html">
+                    <a href="manageFleet.html">
                         <i class="pe-7s-map-marker"></i>
                         <p>Fleets</p>
                     </a>
@@ -206,55 +206,22 @@
          <div class="content"> 
               <div class="container-fluid"> 
                 <div class="row"> 
-                    <div class="col-md-9"> 
+                    <div class="col-md-5">
                          <div class="card">  
                             <div class="header">
-                                <h4 class="title">Vehicle Information Management</h4><br><br>
-                           
-							
-							
-							
-							<div class="col-md-8">
-							
-							<div class="pull-center">
-                                <label>REG NO</label>
-
-												<input type="text" id="serchVehicleRegNo" class="form-control" placeholder="TYPE YOUR REG NO HERE" name="search"><br>
-												<button type="submit" onclick="searchVehicle()" class="btn btn-info btn-fill pull-center">Search</button>&nbsp &nbsp &nbsp
-												
-												<br>
-												</div><br><br>
-							
-                            <div class="content table-responsive table-full-width">
-                                <table id="vehicleTable" class="display" width="100%"></table>
-
-								<br>
-								<br>
-								<div class="pull-center">
-                                                <button type="submit" id="vehicleAddButton" onclick="vehicleAdd()" class="btn btn-info btn-fill pull-center">Add</button>&nbsp &nbsp &nbsp
-												<button type="submit" id="vehicleUpdateButton" onclick="vehicleUpdate()" class="btn btn-info btn-fill pull-center">Edit</button>&nbsp &nbsp &nbsp
-												<button type="submit" id="vehicleDeleteButton" onclick="vehicleDelete()" class="btn btn-info btn-fill pull-center">Delete</button>&nbsp &nbsp &nbsp
-												<button type="submit" id="vehicleClearButton" onclick="vehicleClear()" class="btn btn-info btn-fill pull-center">Clear</button>
-												<br>
-												</div>
-								
+                                <h4 class="title">Vehicle Information Management</h4><br>
                             </div>
-							</div>
-							</div>
-							<br>
-							<br>
                             <div class="content">
                                 <form id="vehicleForm">
                                     <div class="row">
-                                        <div class="col-md-7">
+                                        <div class="col-md-6">
                                             <div class="form-group">
 											<br>
-							<br>
                                                 <div class="pull-left">
                                                 <input id="id" type="text" hidden>
 												<label>Reg No</label>
                                                 <input id="vehcleRegNo" type="text" class="form-control" placeholder="xx-1234" value="">
-
+                                                <br>
 												<div class="dropdown">
 													<label>Vehicle Type</label>&nbsp &nbsp &nbsp
                                                     <select id="vehicleType" class="btn btn-default dropdown-toggle" >
@@ -336,13 +303,7 @@
 												
 												
 											  
-												<!--<div class="pull-right">
-												<input type="text" class="form-control" placeholder="TYPE YOUR NIC HERE" name="search"><br>
-												<button type="submit" class="btn btn-info btn-fill pull-center">Search</button>&nbsp &nbsp &nbsp
-												<button type="submit" class="btn btn-info btn-fill pull-center">Update</button>&nbsp &nbsp &nbsp
-												<button type="submit" class="btn btn-info btn-fill pull-center">Delete</button>
-												<br>
-												</div> -->
+
 												
                                             </div>
                                         </div>
@@ -353,69 +314,40 @@
                                 </form>
 							</div>
                         </div>
-                    </div>                             
-					
-		<!--	<div class="content"> 
-              <div class="container-fluid"> 
-                <div class="row"> 
-                    <div class="col-md-7"> 
-							<div class="card">
-							<form>
-							
-							<div class="pull-right">
-                                <div class="col-md-5">
-											<div class="pull-right">
-                                            <div class="form-group">
-                                                <label>Email</label>
-                                                <input type="text" class="form-control" placeholder="myname@example.com" value="">
-                                            </div>
-											</div>
-                                        </div>
-									</div>
-							
-							
-							
-							</form>
+                    </div>
 
 
-							</div>
-					</div>
-                  </div>
-				</div>
-			</div> -->
-				  
-				  
-				  
-					<div class="col-md-2">
+                    <div class="col-md-7">
                         <div class="card card-user">
-                            <div class="image">
-                                <img src="" alt="..."/>
-                            </div>
                             <div class="content">
-                                <div class="author">
-                                     <a href="#">
-                                    <img class="avatar border-gray" src="../../../../../../../ravi/light-bootstrap-dashboard-master-edit-3/lorry.png" alt="..."/>
+                                    <div class="pull-center">
+                                        <label>Search Vehicle</label>
 
-                                      <h4 class="title"><br />
-                                         <small>Sithumina Transport Management</small>
-                                      </h4>
-                                    </a>
-                                </div>
-                                <p class="description text-center"> To get user name and password  <br>
-                                                    first register from user accounts <br>
-                                                    <b>Sithumina Transport Adiministration</b>
-													
-                                </p>
-                            </div>
-                            <hr>
-                            <div class="text-center">
-                                <button href="#" class="btn btn-simple"><i class="fa fa-facebook-square"></i></button>
-                                <button href="#" class="btn btn-simple"><i class="fa fa-twitter"></i></button>
-                                <button href="#" class="btn btn-simple"><i class="fa fa-google-plus-square"></i></button>
+                                        <input type="text" id="serchVehicleRegNo" class="form-control" placeholder="TYPE YOUR REG NO HERE" name="search"><br>
+                                        <button type="submit" onclick="searchVehicle()" class="btn btn-info btn-fill pull-center">Search</button>&nbsp &nbsp &nbsp
 
+                                        <br>
+                                    </div><br><br>
+
+                                    <div class="content table-responsive table-full-width">
+                                        <table id="vehicleTable" class="display" width="100%"></table>
+
+                                        <br>
+                                        <br>
+                                        <div class="pull-center">
+                                            <button type="submit" id="vehicleAddButton" onclick="vehicleAdd()" class="btn btn-info btn-fill pull-center">Add</button>&nbsp &nbsp &nbsp
+                                            <button type="submit" id="vehicleUpdateButton" onclick="vehicleUpdate()" class="btn btn-info btn-fill pull-center">Edit</button>&nbsp &nbsp &nbsp
+                                            <button type="submit" id="vehicleDeleteButton" onclick="vehicleDelete()" class="btn btn-info btn-fill pull-center">Delete</button>&nbsp &nbsp &nbsp
+                                            <button type="submit" id="vehicleClearButton" onclick="vehicleClear()" class="btn btn-info btn-fill pull-center">Clear</button>
+                                            <br>
+                                        </div>
+
+                                    </div>
                             </div>
                         </div>
                     </div>
+                </div>
+              </div>
                 </div>
             </div>
         </div>                  

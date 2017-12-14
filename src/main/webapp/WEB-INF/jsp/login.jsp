@@ -15,7 +15,7 @@
     <form action="/login" method="post">
         <div class="form-group">
             <label for="username">UserName: <input type="text"
-                                                   class="form-control" id="username" name="username">
+                                                   class="form-control" id="username" name="username"></label>
         </div>
         <div class="form-group">
             <label for="pwd">Password:</label> <input type="password"
@@ -28,5 +28,9 @@
                value="${_csrf.token}" />
     </form>
 </div>
+
+
+
+
 </body>
 </html>
