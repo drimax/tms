@@ -1,9 +1,7 @@
 package com.tms.employee.dto;
 
-import javax.naming.Name;
 import java.io.Serializable;
 import java.math.BigDecimal;
-import java.util.Date;
 
 /**
  * Created by RAVI KALUARACHCHI on 11/29/2017.
@@ -12,7 +10,7 @@ public class EmployeeDTO implements Serializable {
 
     private static final long serialVersionUID = 7526472295222276148L;
 
-    private int id1 ;
+    private Integer id1 ;
     private String employeeFirstName ;
     private String employeeLastName ;
     private String employeeNIC ;
@@ -32,11 +30,11 @@ public class EmployeeDTO implements Serializable {
     private String status ;
 
 
-    public int getId1() {
+    public Integer getId1() {
         return id1;
     }
 
-    public void setId1(int id1) {
+    public void setId1(Integer id1) {
         this.id1 = id1;
     }
 

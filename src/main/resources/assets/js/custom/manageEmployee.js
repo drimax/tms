@@ -88,16 +88,14 @@ $(document).ready(function(){
 
 
 $( "#employeeSave" ).click(function() {
-    alert("Error Saving Employee  !! on employee save");
     var employeeDTO = {};
-    employeeDTO.id1 = $( "#id1" ).val();
-    employeeDTO.employeeFirstName = $("#employeeFirstName").val();
+    employeeDTO.employeeFirstName = "adsada";
     employeeDTO.employeeLastName = $("#employeeLastName").val();
     employeeDTO.employeeNIC = $("#employeeNIC").val();
     employeeDTO.employeeEpfNo = $("#employeeEPF").val();
     employeeDTO.employeeAddress1 = $("#employeeAddress1").val();
-    //employeeDTO.employeeAddress2 = $("#employeeAddress2").val();
-    //employeeDTO.employeeAddress3 = $("#employeeAddress3").val();
+    employeeDTO.employeeAddress2 = $("#employeeAddress2").val();
+    employeeDTO.employeeAddress3 = $("#employeeAddress3").val();
     employeeDTO.employeePhoneNumber = $("#employeePhoneNumber").val();
     employeeDTO.employeeMobileNumber = $("#employeeMobileNumber").val();
     employeeDTO.employeeEmail = $("#employeeEmail").val();
@@ -106,22 +104,22 @@ $( "#employeeSave" ).click(function() {
     employeeDTO.employeeDesignation = $("#employeeDesignation").val();
     employeeDTO.Status = $("#status").val();
 
-    alert("Error Saving E===============mployee  !!!");
+
     $.ajax({
-        url: '/employee/saveEmployees', // or whatever
-        dataType: 'json',
+        url : '/employee/saveEmployees', // or whatever
+        dataType : 'json',
         type: 'post',
         data: employeeDTO,
-        success: function (response) {
-            alert(response);
-            if (response.success) {
-                alert("Successfully Saved the Employee ");
-                employeeClear(true);
+        success : function (response) {
+            if(response.success){
+                alert("Successfully Saved the Vehicle ");
+                vehicleClear(true);
             } else {
-                alert("Error Saving Employee  !!!");
+                alert("Error Saving Vehicle  !!!");
             }
         }
-    });
+    })
+    ;
 
     alert("complete Saving Employee  !!!");
 

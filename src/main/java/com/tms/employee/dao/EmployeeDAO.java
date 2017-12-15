@@ -29,11 +29,11 @@ public class EmployeeDAO implements IEmployeeDAO {
 
 
     @Override
-    public Employee getEmployeeByNumber (String employeeNum) {
+    public Employee getEmployeeByNumber (String epfNo) {
 
         Employee employee = null ;
-        String ehq1 = "FROM Employee e WHERE  e.employeeNIC = employeeNo" ;
-        List <Employee> employees = entityManager.createQuery(ehq1).setParameter( "employeeNo",employeeNum).getResultList() ;
+        String ehq1 = "FROM Employee e WHERE  e.epfNo = :epfNo" ;
+        List <Employee> employees = entityManager.createQuery(ehq1).setParameter( "epfNo",epfNo).getResultList() ;
         if (employees != null && employees.size() > 0){
 
             employee = employees.get(0) ;
@@ -52,7 +52,7 @@ public class EmployeeDAO implements IEmployeeDAO {
 
         Employee persistedEmployee = null ;
         entityManager.persist(employee) ;
-        persistedEmployee = getEmployeeByNumber(employee.getEmployeeNIC()) ;
+        persistedEmployee = getEmployeeByNumber(employee.getEpfNo()) ;
         if (persistedEmployee != null){
 
             return true;

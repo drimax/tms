@@ -18,7 +18,7 @@ public class Employee {
     public String firstName;
     @Column(name = "last_name")
     public String employeeLastName;
-    @Column (name = "emp_nic")
+    @Transient
     public String employeeNIC;
     @Column (name = "EPF_NO")
     public String epfNo;
@@ -26,7 +26,7 @@ public class Employee {
     public String employeeAddress;
     @Column (name = "mobile")
     public Integer employeeMobile;
-    @Column (name = "email")
+    @Transient
     public String employeeEmail;
     @Column (name = "basic_salary")
     public BigDecimal employeeBasicsalary;
