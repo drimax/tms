@@ -37,12 +37,12 @@ $(document).ready(function(){
     var selectVehicle = $("#selectVehicle");
 
     $.ajax({
-        url : '/vehicles/getAllVehicles', // or whatever
+        url : "/vehicle/getAllVehicles", // or whatever
         dataType : 'json',
         type: 'post',
         success : function (response) {
             $.each(response.tableData, function() {
-                selectVehicle.append($("<option />").val(this.Id).text(this.vehicleRegNo));
+                selectVehicle.append($("<option />").val(this.id).text(this.vehicleRegNo));
             });
 
         }

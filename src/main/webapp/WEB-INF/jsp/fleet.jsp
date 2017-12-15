@@ -231,9 +231,6 @@
                                                     <div class="dropdown">
                                                         <label>Select Vehicle</label>&nbsp &nbsp &nbsp
                                                         <select id="selectVehicle" class="btn btn-default dropdown-toggle" >
-                                                            <option value=""></option>
-                                                            <option value=""></option>
-                                                            <option value=""></option>
                                                         </select>
                                                     </div>
                                                     <br>

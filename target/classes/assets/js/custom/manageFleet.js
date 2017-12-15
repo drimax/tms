@@ -34,5 +34,18 @@ $(document).ready(function(){
         }
     })
 
+    var selectVehicle = $("#selectVehicle");
+
+    $.ajax({
+        url : "/vehicle/getAllVehicles", // or whatever
+        dataType : 'json',
+        type: 'post',
+        success : function (response) {
+            $.each(response.tableData, function() {
+                selectVehicle.append($("<option />").val(this.id).text(this.vehicleRegNo));
+            });
+
+        }
+    })
 });
 
